@@ -1,0 +1,149 @@
+/* 工具结果容器 */
+.tool-result {
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background: #f9f9f9;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 成功状态样式 */
+.tool-result-success {
+  border-left: 4px solid #4caf50;
+}
+
+/* 错误状态样式 */
+.tool-result-error {
+  border-left: 4px solid #f44336;
+}
+
+/* 工具结果头部 */
+.tool-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* 工具结果标题 */
+.tool-result-title {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+/* 状态标签 */
+.tool-result-status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-success {
+  background: #e8f5e8;
+  color: #2e7d32;
+}
+
+.status-error {
+  background: #ffebee;
+  color: #c62828;
+}
+
+/* 工具结果消息 */
+.tool-result-message {
+  padding: 12px 16px;
+  background: #ffffff;
+  color: #666;
+  font-size: 14px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* 工具结果内容 */
+.tool-result-content {
+  padding: 16px;
+  background: #ffffff;
+}
+
+/* 工具结果内容中的样式 */
+.tool-result-content h3 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tool-result-content h4 {
+  margin: 16px 0 8px 0;
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tool-result-content p {
+  margin: 8px 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+.tool-result-content ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.tool-result-content li {
+  margin: 4px 0;
+  color: #666;
+  line-height: 1.4;
+}
+
+.tool-result-content .highlight {
+  background: #fff3cd;
+  padding: 2px 4px;
+  border-radius: 3px;
+  color: #856404;
+}
+
+.tool-result-content .success-text {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.tool-result-content .error-text {
+  color: #c62828;
+  font-weight: 500;
+}
+
+.tool-result-content .info-box {
+  background: #e3f2fd;
+  border: 1px solid #bbdefb;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.tool-result-content .warning-box {
+  background: #fff3e0;
+  border: 1px solid #ffcc02;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .tool-result-header {
+    padding: 10px 12px;
+  }
+  
+  .tool-result-message {
+    padding: 10px 12px;
+  }
+  
+  .tool-result-content {
+    padding: 12px;
+  }
+}

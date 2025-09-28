@@ -1,0 +1,28 @@
+Vosk:
+  url: vosk-model-small-cn-0.22
+api:
+  Qiniu:
+    api_key: sk-*****************************
+    base_url: https://openai.qiniu.com/v1
+  siliconflow:
+    api_key: sk-******************************
+    base_url: https://api.siliconflow.cn/v1
+model:
+  asr:
+    model_name: asr
+  chat:
+    model_name: x-ai/grok-4-fast
+  embedding:
+    model_name: BAAI/bge-m3
+qdrant:
+  db:
+    ss: 苏轼
+    ynf: 伊涅芙
+    zgl: 诸葛亮
+  vector_params:
+    distance: Cosine
+    size: 1024
+txyun:
+  appid: *********
+  secret_id: ****************************
+  secret_key: ****************************
