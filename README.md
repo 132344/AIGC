@@ -1,4 +1,4 @@
-# AIGC - AI Generated Content 智能内容生成平台
+# AIGC
 
 ## 项目简介
 
